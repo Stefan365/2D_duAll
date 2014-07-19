@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT addressRecords (addressRecord)*>
+<!ELEMENT addressRecord (firstName, lastName, street, descr_nr, city, psc, phone_nr)>
+<!ATTLIST address_record id NMTOKEN #REQUIRED>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT descr_nr (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT psc (#PCDATA)>
+<!ELEMENT phone_nr (#PCDATA)>
+
